@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: "Poppins", serif; 
+}
+.btn-outline-danger:hover{
+    color: #fff !important;
+}
+h1 , h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.bg{
+    background-color: #000000 !important;
+    height: 80px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+}
+.nav-item{
+    margin: 0px 40px;
+    font-size: 1.0rem;
+    position: relative;
+}
+.nav-item a{
+    color: #fff !important ; 
+    padding: 10px 10px;  
+}
+.nav-item a:hover,
+.nav-item .active:hover{
+    color: rgba(175, 40, 40, 0.801) !important;
+   
+}
+.hero-img img{
+    height: 100vh;
+    object-fit: cover;
+
+}
+.dropdown ul li {
+    padding: 4px 10px;
+    width: 200px !important;
+}
+.dropdown ul li:hover {
+    background-color: #f8f8f8;
+}
+.nav-item .dropdown-menu{
+    display: none;
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+.slide-text{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.slide-text{
+    max-width:550px;
+}
+.slide-text h1{
+    font-size: 5.4rem;
+    color: rgba(224, 121, 2, 0.781);
+  
+    font-weight: 600;
+}
+.slide-text span{
+    color: rgba(255, 87, 9, 0.596);
+    font-weight: 700;
+
+}
+.slide-text .btn{
+    color: #fff;
+}
+
+/* //////////////// About ////////////? */
+
+.about-img{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.5)), url(./assets/web-img/1.jpg);
+    height: 70vh;
+    background-position: calc(30% + 20px) calc(30% - 10px);
+    background-attachment: fixed;
+}
+.abot-img-text{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.home-hover{
+    transition: all linear .5s;
+}
+.home-hover:hover{
+    color: rgb(255, 72, 0);
+    cursor: pointer;
+}
+.card-icons{
+    position: absolute;
+    left: 40%;
+    top: -13%;
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.836);
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+   
+}
+.card{
+    transition: all 0.4s linear;
+   
+}
+.card:hover {
+    background-color: red;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.card:hover p{
+    color: #fff !important;
+    transition: all 0.3s linear;
+}
+p{
+    transition: all 0.3s linear;   
+}
+.card:hover img {
+    transform: rotate(20deg); 
+    transition: transform 0.3s linear; 
+}
+
+/* ///////// Footer///////////// */
+.copyright-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ///////// Contact us//////////// */
+.info a{
+    text-decoration: none;
+    color: #000;
+}
+.info p{
+    color: #0a0a0ab9 ;
+}
+/* //////BLOGS//////// */
+.container{
+    
+width: 100%;
+height: 50%;
+position: relative;
+
+}
+.aa img{
+    object-fit: cover;
+    transition: 0.5s  all ease-in-out;
+
+}
+.container  .aa { 
+overflow: hidden !important;
+transition: all .5s linear;
+
+}
+.container .aa img:hover{
+ transition: 0.5s  all ease-in-out;
+ transform: scale(1.3) rotate(10deg);
+ 
+
+}
+.card1{
+    position: relative;
+}
+.img-content{
+    position: absolute;
+    bottom: 23px;
+    color: white;
+}
+/* ////// GRID IMG`///////// */
+.grid-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    gap: 20px;
+}
+.main3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#row-size{
+    grid-row: span 2;
+}
+#col-size{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.view-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding-top: 20px;
+    transition: all .3s linear;
+}
+.view-more button {
+ padding: 10px 35px;
+ font-weight: 500;
+ transition: all .3s linear;
+ color: #000;
+ border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* /* ///////// Modal //////////// */
+.email input{
+    padding: 10px 10px ;
+    margin: 0;
+    width: 100%;
+    border-radius: 5px;
+    color: red;
+}
+.email input:focus{
+    border-color: red !important; 
+    outline: none;
+}
+.email input::placeholder{
+    color: red;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.search-btn a{
+    text-decoration: none;
+    color: #fff;
+}
